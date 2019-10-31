@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.navbar-custom {
+    background-color: rgb(135, 151, 202) !important;
+    height: 40px;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    color: rgba(253, 253, 253, 0.726);
+    margin-right: 20px;
+}
+@media (max-width: 575px) { 
+    .navbar-custom {
+        background-color: rgb(135, 151, 202) !important;
+        height: 50px;
+    }
+ }
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+.content {
+    background-color: rgba(2, 2, 2, 0.103);
+    height: 300px;
+    width: 120%;
+}
+.content h4 {
+    height: 200px;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+footer {
+    position: relative;
+}

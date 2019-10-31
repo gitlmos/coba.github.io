@@ -1,0 +1,107 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+
+.card {
+    display:none;
+    margin-top: 15px;
+    padding: 10px;
+    border-width: 0 1px 1px 0;
+    margin-bottom: 5px;
+}
+
+.card-title {
+    color: black;
+}
+
+.media img {
+    height: 250px;
+    width: 500px;
+}
+
+.subs {
+    background-color: rgba(162, 162, 192, 0.445);
+}
+
+/* footer */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #8797CA;
+}
+
+.contact a {
+    margin-right: 15px;
+    color: white;
+    font: weight 600;
+}
+.contact a:hover {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+/* side-bar */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+    float: right !important;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-right .5s; /* If you want a transition effect */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
